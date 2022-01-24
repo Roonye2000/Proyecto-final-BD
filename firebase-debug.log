@@ -1,0 +1,468 @@
+[debug] [2022-01-23T06:31:03.604Z] ----------------------------------------------------------------------
+[debug] [2022-01-23T06:31:03.608Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-01-23T06:31:03.608Z] CLI Version:   10.1.2
+[debug] [2022-01-23T06:31:03.608Z] Platform:      win32
+[debug] [2022-01-23T06:31:03.609Z] Node Version:  v14.18.1
+[debug] [2022-01-23T06:31:03.610Z] Time:          Sun Jan 23 2022 01:31:03 GMT-0500 (hora de Ecuador)
+[debug] [2022-01-23T06:31:03.611Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-23T06:31:03.825Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2022-01-23T06:31:03.832Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-23T06:31:03.833Z] > authorizing via signed-in user (dahegovi349@gmail.com)
+[info] i  emulators: Starting emulators: functions, firestore, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, storage"}}
+[debug] [2022-01-23T06:31:03.877Z] [hub] writing locator at C:\Users\Jessenia\AppData\Local\Temp\hub-guardia-de-seguridad-671ea.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, database, hosting, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "16" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"14\""}}
+[debug] [2022-01-23T06:31:03.964Z] defaultcredentials: writing to file C:\Users\Jessenia\AppData\Roaming\firebase\dahegovi349_gmail_com_application_default_credentials.json
+[debug] [2022-01-23T06:31:03.967Z] Setting GAC to C:\Users\Jessenia\AppData\Roaming\firebase\dahegovi349_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Jessenia\\AppData\\Roaming\\firebase\\dahegovi349_gmail_com_application_default_credentials.json"}}
+[debug] [2022-01-23T06:31:03.970Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/guardia-de-seguridad-671ea/adminSdkConfig [none]
+[debug] [2022-01-23T06:31:05.531Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/guardia-de-seguridad-671ea/adminSdkConfig 200
+[debug] [2022-01-23T06:31:05.531Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/guardia-de-seguridad-671ea/adminSdkConfig {"projectId":"guardia-de-seguridad-671ea","storageBucket":"guardia-de-seguridad-671ea.appspot.com","locationId":"us-central"}
+[debug] [2022-01-23T06:31:05.592Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2022-01-23T06:31:05.592Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-01-23T06:31:05.593Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\Jessenia\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.13.1.jar","--host","localhost","--port",7000,"--rules","C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\firestore.rules","--functions_emulator","localhost:5001"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Jessenia\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.13.1.jar\",\"--host\",\"localhost\",\"--port\",7000,\"--rules\",\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\firestore.rules\",\"--functions_emulator\",\"localhost:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"functions_emulator\",\"seed_from_export\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2022-01-23T06:31:13.661Z] Jan 23, 2022 1:31:13 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://localhost:51714
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:31:13 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\r\nINFO: Started WebSocket server on ws://localhost:51714\r\n"}}
+[debug] [2022-01-23T06:31:13.735Z] API endpoint: http://localhost {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://localhost"}}
+[debug] [2022-01-23T06:31:13.736Z] :7000
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:7000
+
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":":7000\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\r\n\n   export FIRESTORE_EMULATOR_HOST=localhost:7000\n\nDev App Server is now running.\n\r\n"}}
+[debug] [2022-01-23T06:31:13.941Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-01-23T06:31:14.494Z] Temp file directory for storage emulator: C:\Users\Jessenia\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\Jessenia\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2022-01-23T06:31:17.088Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-01-23T06:31:17.089Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-01-23T06:31:17.089Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Jessenia\\.cache\\firebase\\emulators\\ui-v1.6.4\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Jessenia\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.4\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-01-23T06:31:17.410Z] Web / API server started at localhost:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4002\n"}}
+[info] i  functions: Watching "C:\Users\Tuker\Desktop\guardias_de_seguridad\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\" for Cloud Functions..."}}
+[debug] [2022-01-23T06:31:17.736Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2022-01-23T06:31:17.737Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2022-01-23T06:31:17.737Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2022-01-23T06:31:17.738Z] [worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: Assigning socketPath: \\?\pipe\C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\15900 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\15900"}}
+[debug] [2022-01-23T06:31:17.738Z] [worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: BUSY"}}
+[debug] [2022-01-23T06:31:18.284Z] [runtime-status] [15900] Functions runtime initialized. {"cwd":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions","node_version":"14.18.1"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\",\"node_version\":\"14.18.1\"}"}}
+[debug] [2022-01-23T06:31:18.290Z] [runtime-status] [15900] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Disabled runtime features: undefined"}}
+[debug] [2022-01-23T06:31:18.308Z] [runtime-status] [15900] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:31:18.328Z] [runtime-status] [15900] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:31:18.339Z] [runtime-status] [15900] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-01-23T06:31:18.346Z] [runtime-status] [15900] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:31:19.198Z] [runtime-status] [15900] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-01-23T06:31:19.199Z] [runtime-status] [15900] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-01-23T06:31:19.202Z] [runtime-status] [15900] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:31:19.205Z] [runtime-status] [15900] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:31:19.207Z] [runtime-status] [15900] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:31:19.208Z] [runtime-status] [15900] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-01-23T06:31:19.253Z] [runtime-status] [15900] initializeApp(DEFAULT) {"storageBucket":"guardia-de-seguridad-671ea.appspot.com","projectId":"guardia-de-seguridad-671ea"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [15900] initializeApp(DEFAULT) {\"storageBucket\":\"guardia-de-seguridad-671ea.appspot.com\",\"projectId\":\"guardia-de-seguridad-671ea\"}"}}
+[debug] [2022-01-23T06:31:19.884Z] addFirestoreTrigger "{\"eventTrigger\":{\"resource\":\"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/{Servicios_SolicitadosId}\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2022-01-23T06:31:19.886Z] >>> HTTP REQUEST PUT http://localhost:7000/emulator/v1/projects/guardia-de-seguridad-671ea/triggers/us-central1-onUserCreate-0  
+ {"eventTrigger":{"resource":"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/{Servicios_SolicitadosId}","eventType":"providers/cloud.firestore/eventTypes/document.create","service":"firestore.googleapis.com"}}
+[debug] [2022-01-23T06:31:19.890Z] [worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: IDLE"}}
+[debug] [2022-01-23T06:31:19.932Z] Jan 23, 2022 1:31:19 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:31:19 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:31:20.556Z] Jan 23, 2022 1:31:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:31:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:31:22.187Z] <<< HTTP RESPONSE 200 {"content-type":"application/json","content-length":"4"}
+[info] +  functions[us-central1-onUserCreate]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4002                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4002/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Firestore │ localhost:7000 │ http://localhost:4002/firestore │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Storage   │ localhost:9199 │ http://localhost:4002/storage   │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-01-23T06:32:00.764Z] Jan 23, 2022 1:32:00 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:00 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:01.287Z] Jan 23, 2022 1:32:01 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:01 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\r\nINFO: Connected to new websocket client\r\n"}}
+[debug] [2022-01-23T06:32:02.256Z] Jan 23, 2022 1:32:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\r\nINFO: Websocket client disconnected\r\n"}}
+[debug] [2022-01-23T06:32:07.882Z] Jan 23, 2022 1:32:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:08.281Z] Jan 23, 2022 1:32:08 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:08 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\r\nINFO: Connected to new websocket client\r\n"}}
+[debug] [2022-01-23T06:32:11.880Z] Jan 23, 2022 1:32:11 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:11 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:12.084Z] Jan 23, 2022 1:32:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:13.917Z] Jan 23, 2022 1:32:13 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:13 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:16.377Z] Jan 23, 2022 1:32:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:18.406Z] Jan 23, 2022 1:32:18 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:18 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:20.432Z] Jan 23, 2022 1:32:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:22.467Z] Jan 23, 2022 1:32:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:22.600Z] Jan 23, 2022 1:32:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:24.504Z] Jan 23, 2022 1:32:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:26.846Z] Jan 23, 2022 1:32:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:28.874Z] Jan 23, 2022 1:32:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:30.911Z] Jan 23, 2022 1:32:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:32.948Z] Jan 23, 2022 1:32:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:33.000Z] Jan 23, 2022 1:32:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:34.968Z] Jan 23, 2022 1:32:34 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:34 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:37.308Z] Jan 23, 2022 1:32:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:52.081Z] Jan 23, 2022 1:32:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:32:52.105Z] Jan 23, 2022 1:32:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:32:52 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:16.512Z] Jan 23, 2022 1:33:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:18.543Z] Jan 23, 2022 1:33:18 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:18 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:20.566Z] Jan 23, 2022 1:33:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:22.589Z] Jan 23, 2022 1:33:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:24.615Z] Jan 23, 2022 1:33:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:26.653Z] Jan 23, 2022 1:33:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:28.688Z] Jan 23, 2022 1:33:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:28 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:30.713Z] Jan 23, 2022 1:33:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:32.743Z] Jan 23, 2022 1:33:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:34.769Z] Jan 23, 2022 1:33:34 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:34 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:36.793Z] Jan 23, 2022 1:33:36 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:36 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:38.829Z] Jan 23, 2022 1:33:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:38 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:40.907Z] Jan 23, 2022 1:33:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:40 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:42.928Z] Jan 23, 2022 1:33:42 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:42 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:44.562Z] Jan 23, 2022 1:33:44 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:44 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:44.963Z] Jan 23, 2022 1:33:44 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:44 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:45.072Z] Jan 23, 2022 1:33:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:45.403Z] Jan 23, 2022 1:33:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:46.589Z] Jan 23, 2022 1:33:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:46.988Z] Jan 23, 2022 1:33:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:47.229Z] Jan 23, 2022 1:33:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:47.718Z] Jan 23, 2022 1:33:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:49.014Z] Jan 23, 2022 1:33:49 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:49 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:51.056Z] Jan 23, 2022 1:33:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:52.650Z] Jan 23, 2022 1:33:52 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:52 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\r\nINFO: Websocket client disconnected\r\n"}}
+[debug] [2022-01-23T06:33:53.136Z] Jan 23, 2022 1:33:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:53.507Z] Jan 23, 2022 1:33:53 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:53 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\r\nINFO: Connected to new websocket client\r\n"}}
+[debug] [2022-01-23T06:33:53.601Z] Jan 23, 2022 1:33:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:53.868Z] Jan 23, 2022 1:33:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:53.946Z] Jan 23, 2022 1:33:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:57.136Z] Jan 23, 2022 1:33:57 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:57 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:33:59.162Z] Jan 23, 2022 1:33:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:33:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:01.193Z] Jan 23, 2022 1:34:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:05.741Z] Jan 23, 2022 1:34:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:07.846Z] Jan 23, 2022 1:34:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:12.767Z] Jan 23, 2022 1:34:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:12 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:13.736Z] Jan 23, 2022 1:34:13 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:13 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:14.414Z] Jan 23, 2022 1:34:14 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:14 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:14.804Z] Jan 23, 2022 1:34:14 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:14 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:16.842Z] Jan 23, 2022 1:34:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:16 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:18.874Z] Jan 23, 2022 1:34:18 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:18 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:20.904Z] Jan 23, 2022 1:34:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:20 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:22.925Z] Jan 23, 2022 1:34:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:22 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:24.959Z] Jan 23, 2022 1:34:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:26.992Z] Jan 23, 2022 1:34:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:29.011Z] Jan 23, 2022 1:34:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:30.943Z] Jan 23, 2022 1:34:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:31.045Z] Jan 23, 2022 1:34:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:31.270Z] Jan 23, 2022 1:34:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:31.598Z] Jan 23, 2022 1:34:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:32.065Z] Jan 23, 2022 1:34:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:32.471Z] Jan 23, 2022 1:34:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:32.867Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-01-23T06:34:32.867Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-01-23T06:34:32.868Z] Accepted request POST /functions/projects/guardia-de-seguridad-671ea/triggers/us-central1-onUserCreate-0 --> us-central1-onUserCreate-0 {"metadata":{"emulator":{"name":"functions"},"message":"Accepted request POST /functions/projects/guardia-de-seguridad-671ea/triggers/us-central1-onUserCreate-0 --> us-central1-onUserCreate-0"}}
+[debug] [2022-01-23T06:34:32.956Z] [worker-pool] addWorker(us-central1-onUserCreate) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-onUserCreate)"}}
+[debug] [2022-01-23T06:34:32.957Z] [worker-pool] Adding worker with key us-central1-onUserCreate, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-onUserCreate, total=1"}}
+[debug] [2022-01-23T06:34:32.957Z] [worker-pool] submitWork(triggerId=us-central1-onUserCreate) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-onUserCreate)"}}
+[debug] [2022-01-23T06:34:32.957Z] [worker-us-central1-onUserCreate-c5ad97a6-6778-4ad3-b616-e44eb9076de7]: Assigning socketPath: \\?\pipe\C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\9972 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-onUserCreate-c5ad97a6-6778-4ad3-b616-e44eb9076de7]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\9972"}}
+[debug] [2022-01-23T06:34:32.957Z] [worker-us-central1-onUserCreate-c5ad97a6-6778-4ad3-b616-e44eb9076de7]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-onUserCreate-c5ad97a6-6778-4ad3-b616-e44eb9076de7]: BUSY"}}
+[debug] [2022-01-23T06:34:33.074Z] Jan 23, 2022 1:34:33 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:33 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:35.093Z] Jan 23, 2022 1:34:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:35 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:37.127Z] Jan 23, 2022 1:34:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:37 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:37.315Z] [runtime-status] [9972] Functions runtime initialized. {"cwd":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions","node_version":"14.18.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\",\"node_version\":\"14.18.1\"}"}}
+[debug] [2022-01-23T06:34:37.317Z] [runtime-status] [9972] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Disabled runtime features: undefined"}}
+[debug] [2022-01-23T06:34:37.362Z] [runtime-status] [9972] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:34:37.380Z] [runtime-status] [9972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:34:37.383Z] [runtime-status] [9972] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-01-23T06:34:37.385Z] [runtime-status] [9972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:34:38.367Z] [runtime-status] [9972] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-01-23T06:34:38.368Z] [runtime-status] [9972] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-01-23T06:34:38.374Z] [runtime-status] [9972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:34:38.377Z] [runtime-status] [9972] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:34:38.379Z] [runtime-status] [9972] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:34:38.379Z] [runtime-status] [9972] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-01-23T06:34:38.401Z] [runtime-status] [9972] initializeApp(DEFAULT) {"storageBucket":"guardia-de-seguridad-671ea.appspot.com","projectId":"guardia-de-seguridad-671ea"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] initializeApp(DEFAULT) {\"storageBucket\":\"guardia-de-seguridad-671ea.appspot.com\",\"projectId\":\"guardia-de-seguridad-671ea\"}"}}
+[debug] [2022-01-23T06:34:38.585Z] [runtime-status] [9972] Trigger "us-central1-onUserCreate" has been found, beginning invocation! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Trigger \"us-central1-onUserCreate\" has been found, beginning invocation!"}}
+[info] i  functions: Beginning execution of "us-central1-onUserCreate" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"Beginning execution of \"us-central1-onUserCreate\""}}
+[debug] [2022-01-23T06:34:38.589Z] [runtime-status] [9972] triggerDefinition {"eventTrigger":{"resource":"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/{Servicios_SolicitadosId}","eventType":"providers/cloud.firestore/eventTypes/document.create","service":"firestore.googleapis.com"},"name":"onUserCreate","entryPoint":"onUserCreate","regions":["us-central1"],"region":"us-central1","id":"us-central1-onUserCreate","platform":"gcfv1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] triggerDefinition {\"eventTrigger\":{\"resource\":\"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/{Servicios_SolicitadosId}\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"service\":\"firestore.googleapis.com\"},\"name\":\"onUserCreate\",\"entryPoint\":\"onUserCreate\",\"regions\":[\"us-central1\"],\"region\":\"us-central1\",\"id\":\"us-central1-onUserCreate\",\"platform\":\"gcfv1\"}"}}
+[debug] [2022-01-23T06:34:38.590Z] [runtime-status] [9972] Running us-central1-onUserCreate in signature event {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Running us-central1-onUserCreate in signature event"}}
+[debug] [2022-01-23T06:34:38.590Z] [runtime-status] [9972] ProcessBackground {"data":{"value":{"name":"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu","fields":{"fff":{"stringValue":"fff"}},"createTime":"2022-01-23T06:34:31.605076Z","updateTime":"2022-01-23T06:34:31.605076Z"},"updateMask":{}},"context":{"eventId":"e763308e-4730-47b3-a691-081264b102ce","timestamp":"2022-01-23T06:34:31.605Z","eventType":"providers/cloud.firestore/eventTypes/document.create","resource":{"name":"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu","service":"firestore.googleapis.com"}}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] ProcessBackground {\"data\":{\"value\":{\"name\":\"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu\",\"fields\":{\"fff\":{\"stringValue\":\"fff\"}},\"createTime\":\"2022-01-23T06:34:31.605076Z\",\"updateTime\":\"2022-01-23T06:34:31.605076Z\"},\"updateMask\":{}},\"context\":{\"eventId\":\"e763308e-4730-47b3-a691-081264b102ce\",\"timestamp\":\"2022-01-23T06:34:31.605Z\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"resource\":{\"name\":\"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu\",\"service\":\"firestore.googleapis.com\"}}}"}}
+[debug] [2022-01-23T06:34:38.591Z] [runtime-status] [9972] ProcessBackground: lifting resource.name from resource {"name":"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu","service":"firestore.googleapis.com"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] ProcessBackground: lifting resource.name from resource {\"name\":\"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu\",\"service\":\"firestore.googleapis.com\"}"}}
+[debug] [2022-01-23T06:34:38.592Z] [runtime-status] [9972] RunBackground {"data":{"value":{"name":"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu","fields":{"fff":{"stringValue":"fff"}},"createTime":"2022-01-23T06:34:31.605076Z","updateTime":"2022-01-23T06:34:31.605076Z"},"updateMask":{}},"context":{"eventId":"e763308e-4730-47b3-a691-081264b102ce","timestamp":"2022-01-23T06:34:31.605Z","eventType":"providers/cloud.firestore/eventTypes/document.create","resource":"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] RunBackground {\"data\":{\"value\":{\"name\":\"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu\",\"fields\":{\"fff\":{\"stringValue\":\"fff\"}},\"createTime\":\"2022-01-23T06:34:31.605076Z\",\"updateTime\":\"2022-01-23T06:34:31.605076Z\"},\"updateMask\":{}},\"context\":{\"eventId\":\"e763308e-4730-47b3-a691-081264b102ce\",\"timestamp\":\"2022-01-23T06:34:31.605Z\",\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"resource\":\"projects/guardia-de-seguridad-671ea/databases/(default)/documents/Servicios_Solicitados/MunysOoI6urGEDyAhuvu\"}}"}}
+[debug] [2022-01-23T06:34:38.618Z] [runtime-status] [9972] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"[runtime-status] [9972] Ephemeral server survived."}}
+[warn] !  functions: Error: Value for argument "value" is not a valid query constraint. Cannot use "undefined" as a Firestore value. If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+    at Object.validateUserInput (C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\node_modules\@google-cloud\firestore\build\src\serializer.js:277:19)
+    at validateQueryValue (C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\node_modules\@google-cloud\firestore\build\src\reference.js:2230:18)
+    at CollectionReference.where (C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\node_modules\@google-cloud\firestore\build\src\reference.js:1061:9)
+    at C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\index.js:18:32
+    at cloudFunction (C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\node_modules\firebase-functions\lib\cloud-functions.js:135:23)
+    at C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:560:16
+    at runFunction (C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:547:15)
+    at runBackground (C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:559:11)
+    at processBackground (C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:542:11)
+    at invokeTrigger (C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:624:19) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"Error: Value for argument \"value\" is not a valid query constraint. Cannot use \"undefined\" as a Firestore value. If you want to ignore undefined values, enable `ignoreUndefinedProperties`.\n    at Object.validateUserInput (C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\@google-cloud\\firestore\\build\\src\\serializer.js:277:19)\n    at validateQueryValue (C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\@google-cloud\\firestore\\build\\src\\reference.js:2230:18)\n    at CollectionReference.where (C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\@google-cloud\\firestore\\build\\src\\reference.js:1061:9)\n    at C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\index.js:18:32\n    at cloudFunction (C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\cloud-functions.js:135:23)\n    at C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:560:16\n    at runFunction (C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:547:15)\n    at runBackground (C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:559:11)\n    at processBackground (C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:542:11)\n    at invokeTrigger (C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:624:19)"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onUserCreate"},"message":"Your function was killed because it raised an unhandled error."}}
+[debug] [2022-01-23T06:34:38.634Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-01-23T06:34:38.648Z] [worker-us-central1-onUserCreate-c5ad97a6-6778-4ad3-b616-e44eb9076de7]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-onUserCreate-c5ad97a6-6778-4ad3-b616-e44eb9076de7]: exited"}}
+[debug] [2022-01-23T06:34:38.648Z] [worker-us-central1-onUserCreate-c5ad97a6-6778-4ad3-b616-e44eb9076de7]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-onUserCreate-c5ad97a6-6778-4ad3-b616-e44eb9076de7]: FINISHED"}}
+[debug] [2022-01-23T06:34:38.847Z] Jan 23, 2022 1:34:38 AM com.google.cloud.datastore.emulator.impl.events.FunctionsEmulatorEventPublisher sendHttpRequest
+WARNING: Unsuccessful HTTP response when publishing event for projects/guardia-de-seguridad-671ea/triggers/us-central1-onUserCreate-0: 500 Internal Server Error
+Error: Value for argument "value" is not a valid query constraint. Cannot use "undefined" as a Firestore value. If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+    at Object.validateUserInput (C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\node_modules\@google-cloud\firestore\build\src\serializer.js:277:19)
+    at validateQueryValue (C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\node_modules\@google-cloud\firestore\build\src\reference.js:2230:18)
+    at CollectionReference.where (C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\node_modules\@google-cloud\firestore\build\src\reference.js:1061:9)
+    at C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\index.js:18:32
+    at cloudFunction (C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\node_modules\firebase-functions\lib\cloud-functions.js:135:23)
+    at C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:560:16
+    at runFunction (C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:547:15)
+    at runBackground (C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:559:11)
+    at processBackground (C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:542:11)
+    at invokeTrigger (C:\Users\Jessenia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:624:19)
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:38 AM com.google.cloud.datastore.emulator.impl.events.FunctionsEmulatorEventPublisher sendHttpRequest\r\nWARNING: Unsuccessful HTTP response when publishing event for projects/guardia-de-seguridad-671ea/triggers/us-central1-onUserCreate-0: 500 Internal Server Error\r\nError: Value for argument \"value\" is not a valid query constraint. Cannot use \"undefined\" as a Firestore value. If you want to ignore undefined values, enable `ignoreUndefinedProperties`.\n    at Object.validateUserInput (C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\@google-cloud\\firestore\\build\\src\\serializer.js:277:19)\n    at validateQueryValue (C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\@google-cloud\\firestore\\build\\src\\reference.js:2230:18)\n    at CollectionReference.where (C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\@google-cloud\\firestore\\build\\src\\reference.js:1061:9)\n    at C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\index.js:18:32\n    at cloudFunction (C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\cloud-functions.js:135:23)\n    at C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:560:16\n    at runFunction (C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:547:15)\n    at runBackground (C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:559:11)\n    at processBackground (C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:542:11)\n    at invokeTrigger (C:\\Users\\Jessenia\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:624:19)\r\n"}}
+[debug] [2022-01-23T06:34:39.157Z] Jan 23, 2022 1:34:39 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:39 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:41.189Z] Jan 23, 2022 1:34:41 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:41 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:43.219Z] Jan 23, 2022 1:34:43 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:43 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:45.246Z] Jan 23, 2022 1:34:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:45 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:47.284Z] Jan 23, 2022 1:34:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:47 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:49.327Z] Jan 23, 2022 1:34:49 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:49 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:51.355Z] Jan 23, 2022 1:34:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:51 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:53.382Z] Jan 23, 2022 1:34:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:53 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:55.413Z] Jan 23, 2022 1:34:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2022-01-23T06:34:56.924Z] Jan 23, 2022 1:34:56 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Jan 23, 2022 1:34:56 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\r\nINFO: Websocket client disconnected\r\n"}}
+[debug] [2022-01-23T06:35:06.174Z] File C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-01-23T06:35:07.177Z] [worker-pool] Shutting down IDLE worker (~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (~diagnostic~)"}}
+[debug] [2022-01-23T06:35:07.178Z] [worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: FINISHING"}}
+[debug] [2022-01-23T06:35:07.179Z] [worker-pool] Cleaned up workers for us-central1-onUserCreate: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-onUserCreate: 1 --> 0"}}
+[debug] [2022-01-23T06:35:07.196Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2022-01-23T06:35:07.196Z] [worker-pool] Adding worker with key ~diagnostic~, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=2"}}
+[debug] [2022-01-23T06:35:07.196Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2022-01-23T06:35:07.196Z] [worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: Assigning socketPath: \\?\pipe\C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\7688 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\7688"}}
+[debug] [2022-01-23T06:35:07.197Z] [worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: BUSY"}}
+[debug] [2022-01-23T06:35:07.197Z] [worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: exited"}}
+[debug] [2022-01-23T06:35:07.198Z] [worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-49f3854b-f7d7-49b0-b9ee-b9a349574fdd]: FINISHED"}}
+[debug] [2022-01-23T06:35:07.574Z] [runtime-status] [7688] Functions runtime initialized. {"cwd":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions","node_version":"14.18.1"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\",\"node_version\":\"14.18.1\"}"}}
+[debug] [2022-01-23T06:35:07.578Z] [runtime-status] [7688] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Disabled runtime features: undefined"}}
+[debug] [2022-01-23T06:35:07.587Z] [runtime-status] [7688] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:07.594Z] [runtime-status] [7688] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:07.598Z] [runtime-status] [7688] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-01-23T06:35:07.601Z] [runtime-status] [7688] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:07.731Z] [runtime-status] [7688] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-01-23T06:35:07.733Z] [runtime-status] [7688] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-01-23T06:35:07.746Z] [runtime-status] [7688] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:07.750Z] [runtime-status] [7688] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:07.753Z] [runtime-status] [7688] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:07.753Z] [runtime-status] [7688] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-01-23T06:35:07.767Z] [runtime-status] [7688] initializeApp(DEFAULT) {"storageBucket":"guardia-de-seguridad-671ea.appspot.com","projectId":"guardia-de-seguridad-671ea"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [7688] initializeApp(DEFAULT) {\"storageBucket\":\"guardia-de-seguridad-671ea.appspot.com\",\"projectId\":\"guardia-de-seguridad-671ea\"}"}}
+[debug] [2022-01-23T06:35:07.828Z] [worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: IDLE"}}
+[debug] [2022-01-23T06:35:08.502Z] File C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-01-23T06:35:09.503Z] [worker-pool] Shutting down IDLE worker (~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (~diagnostic~)"}}
+[debug] [2022-01-23T06:35:09.504Z] [worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: FINISHING"}}
+[debug] [2022-01-23T06:35:09.505Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1"}}
+[debug] [2022-01-23T06:35:09.531Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2022-01-23T06:35:09.532Z] [worker-pool] Adding worker with key ~diagnostic~, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=2"}}
+[debug] [2022-01-23T06:35:09.532Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2022-01-23T06:35:09.532Z] [worker-~diagnostic~-da25cd1b-5add-4ee6-ab2a-f0a615081ada]: Assigning socketPath: \\?\pipe\C:\Users\Tuker\Desktop\guardias_de_seguridad\functions\14620 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-da25cd1b-5add-4ee6-ab2a-f0a615081ada]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\14620"}}
+[debug] [2022-01-23T06:35:09.533Z] [worker-~diagnostic~-da25cd1b-5add-4ee6-ab2a-f0a615081ada]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-da25cd1b-5add-4ee6-ab2a-f0a615081ada]: BUSY"}}
+[debug] [2022-01-23T06:35:09.534Z] [worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: exited"}}
+[debug] [2022-01-23T06:35:09.534Z] [worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-b1c9f2d8-1191-4bd2-86d8-b0f9794e0ef7]: FINISHED"}}
+[debug] [2022-01-23T06:35:09.954Z] [runtime-status] [14620] Functions runtime initialized. {"cwd":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions","node_version":"14.18.1"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\",\"node_version\":\"14.18.1\"}"}}
+[debug] [2022-01-23T06:35:09.956Z] [runtime-status] [14620] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Disabled runtime features: undefined"}}
+[debug] [2022-01-23T06:35:09.962Z] [runtime-status] [14620] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:09.969Z] [runtime-status] [14620] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:09.972Z] [runtime-status] [14620] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-01-23T06:35:09.975Z] [runtime-status] [14620] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:10.079Z] [runtime-status] [14620] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-01-23T06:35:10.080Z] [runtime-status] [14620] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-01-23T06:35:10.083Z] [runtime-status] [14620] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:10.085Z] [runtime-status] [14620] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:10.086Z] [runtime-status] [14620] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-01-23T06:35:10.087Z] [runtime-status] [14620] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.12.0","resolution":"C:\\Users\\Tuker\\Desktop\\guardias_de_seguridad\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"C:\\\\Users\\\\Tuker\\\\Desktop\\\\guardias_de_seguridad\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-01-23T06:35:10.096Z] [runtime-status] [14620] initializeApp(DEFAULT) {"storageBucket":"guardia-de-seguridad-671ea.appspot.com","projectId":"guardia-de-seguridad-671ea"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [14620] initializeApp(DEFAULT) {\"storageBucket\":\"guardia-de-seguridad-671ea.appspot.com\",\"projectId\":\"guardia-de-seguridad-671ea\"}"}}
+[debug] [2022-01-23T06:35:10.153Z] [worker-~diagnostic~-da25cd1b-5add-4ee6-ab2a-f0a615081ada]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-da25cd1b-5add-4ee6-ab2a-f0a615081ada]: IDLE"}}
